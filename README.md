@@ -28,8 +28,8 @@ Speech recognition runs inside the app, on your Mac. Nothing you say leaves the 
 There are no pre-built downloads yet, so build it from source. You need [Rust](https://rustup.rs) and the Xcode command line tools (`xcode-select --install`).
 
 ```sh
-git clone <this repository>
-cd stt
+git clone https://github.com/MarkymarkLee/SlimeTT.git
+cd SlimeTT
 ./bundle.sh --install
 ```
 
