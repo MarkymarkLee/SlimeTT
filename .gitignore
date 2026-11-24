@@ -1,10 +1,6 @@
 /target
 .DS_Store
 
-# Evaluation data stays local: downloaded models, recorded clips, run outputs, the Python env.
-/eval/models/
-/eval/clips/
-/eval/.venv/
-/eval/results*
-/eval/*.log
+# Local model-evaluation scripts and data (not part of the repository).
+/eval/
 __pycache__/

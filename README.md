@@ -81,9 +81,7 @@ Set `STT_SHOT_MOOD` to `write`, `error` or `status` for the other states.
 
 - `src/` — the app: `main.rs` (UI and flow), `engine.rs` (audio → text), `asr.rs` (speech models), `llm.rs` (cleanup), `vocab.rs` (learned words), `macos.rs` (system glue), `theme.rs` (Catppuccin Mocha colours).
 - `assets/` — the slime icon, the cleanup prompts, README images.
-- `eval/` — scripts used to choose the speech and cleanup models. Recordings, models and results are not in the repository; see the comments at the top of each script.
 - `vendor/sherpa-onnx/` — pre-built sherpa-onnx and ONNX Runtime libraries (arm64) and the C header the bindings are generated from.
-- `DESIGN.md` — the design decisions and why they were made.
 
 ## Credits and licence
 
