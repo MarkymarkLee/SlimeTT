@@ -5,6 +5,7 @@ edition = "2024"
 description = "SlimeTT: local Traditional Chinese + English dictation for macOS"
 license = "MIT"
 readme = "README.md"
+autotests = false # tests/*.rs are unit tests, pulled into their modules with #[path]
 
 [dependencies]
 anyhow = "1.0.104"

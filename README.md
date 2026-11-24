@@ -65,8 +65,9 @@ Settings are in the menu bar (the slime icon): hotkeys, speech model, microphone
 ## Development
 
 ```sh
-cargo test                       # unit tests
-cargo clippy                     # lints; the tree is kept warning-free
+tests/check.sh                   # everything below in one go: format check, lints, unit tests
+cargo test                       # unit tests only
+cargo clippy --all-targets       # lints; the tree is kept warning-free
 cargo fmt                        # formatting (see rustfmt.toml)
 target/release/stt --transcribe some16k.wav   # run the speech model on a 16 kHz WAV, no UI
 ```
@@ -81,6 +82,7 @@ Set `STT_SHOT_MOOD` to `write`, `error` or `status` for the other states.
 
 - `src/` — the app: `main.rs` (UI and flow), `engine.rs` (audio → text), `asr.rs` (speech models), `llm.rs` (cleanup), `vocab.rs` (learned words), `macos.rs` (system glue), `theme.rs` (Catppuccin Mocha colours).
 - `assets/` — the slime icon, the cleanup prompts, README images.
+- `tests/` — the unit tests, one file per source module (`text`, `vocab`, `macos`, `blob`), and `check.sh`. Each file is compiled as part of its module, so it can test private functions.
 - `vendor/sherpa-onnx/` — pre-built sherpa-onnx and ONNX Runtime libraries (arm64) and the C header the bindings are generated from.
 
 ## Credits and licence
