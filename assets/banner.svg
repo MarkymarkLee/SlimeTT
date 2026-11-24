@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" font-family="-apple-system, 'SF Pro Display', 'Helvetica Neue', 'PingFang TC', 'Noto Sans TC', sans-serif">
+  <!-- README banner: Catppuccin Mocha, the slime from slime.svg in blue with its "listening" bubble -->
+  <defs>
+    <mask id="cuts">
+      <rect width="100" height="100" fill="white"/>
+      <ellipse cx="40" cy="56.4" rx="3.75" ry="6" fill="black"/>
+      <ellipse cx="60" cy="56.4" rx="3.75" ry="6" fill="black"/>
+      <rect x="12" y="49.9" width="11" height="19" rx="4" fill="black" stroke="black" stroke-width="7"/>
+      <rect x="77" y="49.9" width="11" height="19" rx="4" fill="black" stroke="black" stroke-width="7"/>
+      <path d="M20 65.4 L41 73.4" stroke="black" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="41" cy="73.4" r="3" fill="black"/>
+    </mask>
+    <clipPath id="top"><rect width="100" height="56.9"/></clipPath>
+  </defs>
+  <rect width="1200" height="360" rx="36" fill="#1e1e2e"/>
+  <g transform="translate(70 20) scale(3.2)">
+    <g fill="#89b4fa">
+      <ellipse cx="50" cy="58.4" rx="30" ry="28" mask="url(#cuts)"/>
+      <rect x="12" y="49.9" width="11" height="19" rx="4"/>
+      <rect x="77" y="49.9" width="11" height="19" rx="4"/>
+      <circle cx="50" cy="59.4" r="38" fill="none" stroke="#89b4fa" stroke-width="5" clip-path="url(#top)"/>
+    </g>
+    <g fill="#cdd6f4">
+      <rect x="53" y="16" width="34" height="20" rx="10"/>
+      <circle cx="57" cy="37" r="4"/>
+      <circle cx="52" cy="42" r="2"/>
+    </g>
+    <g fill="#11111b">
+      <circle cx="62" cy="26" r="2.5"/><circle cx="70" cy="26" r="2.5"/><circle cx="78" cy="26" r="2.5"/>
+    </g>
+  </g>
+  <text x="430" y="150" font-size="96" font-weight="700" fill="#cdd6f4">SlimeTT</text>
+  <text x="434" y="208" font-size="34" fill="#89b4fa">Speech-to-text that stays on your Mac</text>
+  <text x="434" y="262" font-size="27" fill="#a6adc8">Press a hotkey, talk in 中文 + English, and the cleaned-up</text>
+  <text x="434" y="298" font-size="27" fill="#a6adc8">text is pasted where your cursor is.</text>
+</svg>

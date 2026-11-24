@@ -1,0 +1,10 @@
+/target
+.DS_Store
+
+# Evaluation data stays local: downloaded models, recorded clips, run outputs, the Python env.
+/eval/models/
+/eval/clips/
+/eval/.venv/
+/eval/results*
+/eval/*.log
+__pycache__/

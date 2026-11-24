@@ -1,0 +1,37 @@
+# One clip per line: <category>|<text to read>
+# categories: zh, en, mix, fix (fix = read the spoken text including the self-correction words)
+zh|今天下午三點我要去台北車站跟朋友吃飯，然後晚上回家看電影。
+zh|這個軟體的效能不太好，記憶體用量太高了，我們需要重新設計資料庫的架構。
+zh|請幫我把這份報告翻譯成英文，明天早上九點之前寄給客戶。
+zh|我昨天買了一台新的筆記型電腦，螢幕很漂亮，但是鍵盤有點難用。
+zh|最近天氣變冷了，記得多穿一點衣服，不要感冒了。
+zh|公司下個月要搬到新的辦公室，地址在信義區，離捷運站走路五分鐘。
+zh|這個問題我想了很久，覺得最好的方法還是直接跟他說清楚。
+zh|週末我們去爬山好不好？聽說陽明山的櫻花開了，應該很漂亮。
+zh|他說他會在十點半到，可是現在已經十一點了，電話也打不通。
+zh|我覺得這部電影的劇情有點拖，但是演員的表演非常出色。
+en|The quarterly report is due next Friday, so please send me your numbers by Wednesday.
+en|I think we should refactor the authentication module before adding the new payment feature.
+en|Can you book a table for four at seven thirty tonight? Somewhere near the office would be great.
+en|The build is failing on the CI server because of a missing environment variable.
+en|Let's schedule a thirty minute sync tomorrow morning to go over the migration plan.
+en|She moved to Seattle last year and started working at a small robotics startup.
+en|Remember to update the documentation after you change the API response format.
+en|The weather forecast says it will rain all weekend, so the hike is probably off.
+en|I need two hundred and fifty dollars for the conference ticket and about ninety for the hotel.
+en|Our latency went from four hundred milliseconds down to about eighty after the cache change.
+mix|我今天要跟 team 開一個 sync meeting，討論 Q4 的 roadmap。
+mix|這個 function 回傳的 type 不對，應該是 Option 而不是 Result。
+mix|幫我在 Google Calendar 上加一個 reminder，下週二下午兩點要 review PR。
+mix|我們的 server 昨天晚上 crash 了，log 裡面看到很多 timeout 的錯誤。
+mix|這個 UI 的 layout 在 iPhone 上跑版了，button 跑到 screen 外面去。
+mix|你可以用 Rust 寫一個 CLI tool，然後用 cargo build 編譯成 binary。
+mix|老闆說 deadline 是 Friday，但我覺得至少需要再多一個 sprint。
+mix|這家餐廳的 brunch 很好吃，尤其是 eggs benedict，不過要排隊四十分鐘。
+mix|記得把 API key 放在 environment variable 裡面，不要直接 commit 到 repo。
+mix|我昨天去 Costco 買了一台 air fryer，用起來很方便。
+fix|明天早上八點，不對，九點，我要去機場接我媽媽。
+fix|把這個檔案寄給 David，等一下，不是 David，是 Daniel。
+fix|We need three servers, no wait, scratch that, we need five servers for the launch.
+fix|會議改到星期三，呃，刪掉剛剛那句，會議改到星期四下午。
+fix|Send the invoice to the client, actually no, send it to accounting first and then the client.

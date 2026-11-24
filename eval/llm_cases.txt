@@ -1,0 +1,15 @@
+# raw spoken transcript (no punctuation, as ASR would emit) | intended cleaned text
+明天早上八點不對九點我要去機場接我媽媽|明天早上9點，我要去機場接我媽媽。
+把這個檔案寄給David等一下不是David是Daniel|把這個檔案寄給 Daniel。
+we need three servers no wait scratch that we need five servers for the launch|We need 5 servers for the launch.
+會議改到星期三呃刪掉剛剛那句會議改到星期四下午|會議改到星期四下午。
+send the invoice to the client actually no send it to accounting first and then the client|Send it to accounting first and then the client.
+我今天要跟team開一個sync meeting討論Q4的roadmap|我今天要跟 team 開一個 sync meeting，討論 Q4 的 roadmap。
+這個function回傳的type不對應該是Option而不是Result|這個 function 回傳的 type 不對，應該是 Option 而不是 Result。
+the quarterly report is due next friday so please send me your numbers by wednesday|The quarterly report is due next Friday, so please send me your numbers by Wednesday.
+i need two hundred and fifty dollars for the conference ticket and about ninety for the hotel|I need $250 for the conference ticket and about $90 for the hotel.
+這家餐廳的brunch很好吃尤其是eggs benedict不過要排隊四十分鐘|這家餐廳的 brunch 很好吃，尤其是 eggs benedict，不過要排隊40分鐘。
+今天下午三點我要去台北車站跟朋友吃飯然後晚上回家看電影|今天下午3點我要去台北車站跟朋友吃飯，然後晚上回家看電影。
+這個軟件的性能不太好內存用量太高了|這個軟體的效能不太好，記憶體用量太高了。
+第一點我們要先修bug換行第二點再加新功能|第一點我們要先修 bug。\n第二點再加新功能。
+old boss said the deadline is friday 但我覺得至少需要再多一個sprint|Old boss said the deadline is Friday，但我覺得至少需要再多一個 sprint。

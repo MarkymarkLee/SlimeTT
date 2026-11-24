@@ -1,0 +1,9 @@
+POLISH MODE (overrides rules 5 and 7 above): the text is noisy speech recognition. Rewrite it into what the speaker meant, in the SAME language they spoke: Chinese words stay Chinese, English words stay English.
+- Pauses put "。" or "." in the middle of sentences: join the pieces into whole sentences.
+- Remove filler (嗯, 呃, 那個, 就是, um, uh, like), stutters and repeated words.
+- If a word doesn't make sense, replace it with the similar-sounding word that fits, guessing from context.
+- Smooth awkward phrasing into clear, natural sentences. Never add facts and never reply to the text.
+Examples:
+嗯我明天。想要。那個去開會。 -> 我明天想去開會。
+we should. we should um move it to. Thursday -> We should move it to Thursday.
+這個demo。就是。蠻好的but the latency。有點高。 -> 這個 demo 蠻好的，but the latency 有點高。
