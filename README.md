@@ -25,7 +25,17 @@ Speech recognition runs inside the app, on your Mac. Nothing you say leaves the 
 
 ## Install
 
-There are no pre-built downloads yet, so build it from source. You need [Rust](https://rustup.rs) and the Xcode command line tools (`xcode-select --install`).
+**[Download SlimeTT 0.1.0](https://slimett.markpclee.dev/download/SlimeTT-0.1.0-arm64.zip)** (17 MB, Apple Silicon, macOS 14 or later), or see [Releases](https://github.com/MarkymarkLee/SlimeTT/releases).
+
+SlimeTT isn't notarized by Apple yet, so macOS blocks it the first time you open it. Unzip it, drag it into Applications and open it, click **Done** on the warning, then go to **System Settings → Privacy & Security** and click **Open Anyway**. Or run this once after moving it to Applications:
+
+```sh
+xattr -dr com.apple.quarantine /Applications/SlimeTT.app
+```
+
+### Build from source
+
+You need [Rust](https://rustup.rs) and the Xcode command line tools (`xcode-select --install`).
 
 ```sh
 git clone https://github.com/MarkymarkLee/SlimeTT.git
